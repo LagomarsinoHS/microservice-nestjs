@@ -15,7 +15,7 @@ import { ProductsService } from './products.service';
         name: 'PRODUCT_SERVICE',
         transport: Transport.RMQ,
         options: {
-          urls: ['amqps://luaszlyh:AYtEwrXg1kTpTpctt2Ln1O2yCE_1AIQZ@moose.rmq.cloudamqp.com/luaszlyh'],
+          urls: ['secret'],
           queue: 'main_queue',
           queueOptions: {
             durable: false
