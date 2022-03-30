@@ -11,8 +11,8 @@ import { ProductsModule } from './modules/products/products.module';
       type: 'mysql',
       host: 'localhost',
       port: 3306,
-      username: 'root',
-      password: 'administrator',
+      username: 'waa',
+      password: 'wa',
       database: 'nest_admin',
       entities: [],
       autoLoadEntities: true, //todas las entidades en los distintos modulos, que esten en el "forFeature" se agregaran automaticamente al "entities"
