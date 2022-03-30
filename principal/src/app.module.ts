@@ -7,7 +7,7 @@ import { ProductModule } from './modules/product/product.module';
 
 @Module({
   imports: [
-    MongooseModule.forRoot('mongodb+srv://test:test@clusterlg.hqndx.mongodb.net/nest_main?retryWrites=true&w=majority', {
+    MongooseModule.forRoot('mongodb+srv://aaaaa:aaaaaa@clusterlg.hqndx.mongodb.net/nest_main?retryWrites=true&w=majority', {
       autoCreate: true
     }),
     ProductModule
